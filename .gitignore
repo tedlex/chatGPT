@@ -1,0 +1,8 @@
+# Ignore node_modules directory
+node_modules/
+tokens.db
+scrapGoogle5.html
+scrapGoogleError.txt
+.DS_Store
+build/
+.env

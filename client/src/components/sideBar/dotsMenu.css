@@ -1,0 +1,20 @@
+.dots-drop-down-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+
+.dots-drop-down-item {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    white-space: nowrap;
+}
+
+.dots-drop-down-item:hover {
+    background-color: #f1f1f1;
+}

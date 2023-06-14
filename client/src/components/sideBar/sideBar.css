@@ -1,0 +1,41 @@
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 16px 8px;
+    background-color: #1c1d1f;
+    color: #fff;
+    width: 200px;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    transition: left 0.5s;
+}
+
+#scrollDiv {
+    overflow-y: auto;
+    position: relative;
+    flex-grow: 1;
+}
+
+#historyUl::-webkit-scrollbar {
+    width: 4px;
+    background: transparent;
+}
+
+/* Track */
+#historyUl::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background: transparent;
+}
+
+/* Handle */
+#historyUl::-webkit-scrollbar-thumb {
+    background: #797b7b;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+.scrolling::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
